@@ -21,8 +21,19 @@
             <br>
             <input type="password" class="form-control" placeholder="Please Enter Correct Password">
             <br>
-            <button class="btn btn-success">Enter Bank Account</button>
+            <button id="login" class="btn btn-success">Enter Bank Account</button>
         </div>
     </div>
+
+    <script>
+        const loginBtn = document.getElementById("login");
+        loginBtn.addEventListener("click" , function(){
+            const loginArea = document.getElementById("login-area") ;
+            loginArea.style.display = "none" ;
+        })
+
+
+
+    </script>
 </body>
 </html> 
