@@ -1,6 +1,7 @@
 body{
     padding: 100px;
-
+    background-color: tomato;
+    color: white;
 }
 
 
@@ -9,6 +10,8 @@ body{
     padding: 40px;
     border-radius: 10px;    
     box-shadow: 5px 5px 10px gray ;
+    background-color: white;
+    color: black;
 }
 
 #transaction-area{
@@ -24,7 +27,7 @@ body{
 }
 
 .balance{
-    background-color: orangered;
+    background-color: orange;
 }
 
 .status{
